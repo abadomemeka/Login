@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "firstname": "Emeka",
+      "lastname": "Abadom",
+      "email": "abadomemekavictor@gmail.com",
+      "password": "hdskjs",
+      "id": 2
+    },
+    {
+      "firstname": "Emeka",
+      "lastname": "Abadom",
+      "email": "victor@gmail.com",
+      "password": "victor",
+      "id": 3
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "davidOde@gmail.com",
+      "password": "david",
+      "id": 4
+    },
+    {
+      "firstname": "David",
+      "lastname": "Odelabu",
+      "email": "davidOde@gmail.com",
+      "password": "david",
+      "id": 5
+    },
+    {
+      "firstname": "Emeka",
+      "lastname": "Abadom",
+      "email": "jay@gmail.com",
+      "password": "jay",
+      "id": 6
+    },
+    {
+      "firstname": "Ola",
+      "lastname": "Buzo",
+      "email": "olabuzo@gmail.com",
+      "password": "buzo",
+      "id": 7
+    },
+    {
+      "firstname": "Ola",
+      "lastname": "Bode",
+      "email": "olabode@gmail.com",
+      "password": "bode",
+      "id": 8
+    },
+    {
+      "firstname": "Emeka",
+      "lastname": "Abadom",
+      "email": "abadomemekavictor@gmail.com",
+      "password": "abadom",
+      "id": 9
+    },
+    {
+      "firstname": "Emeka",
+      "lastname": "Abadom",
+      "email": "abadomemekavictor@gmail.com",
+      "password": "victor",
+      "id": 10
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Emeka Abadom",
+      "designation": "Manager",
+      "salary": 400000
+    },
+    {
+      "id": 3,
+      "name": "HillBilly Mary",
+      "designation": "Cleaner",
+      "salary": 30000
+    }
+  ]
+}

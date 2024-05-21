@@ -1,0 +1,36 @@
+<!-- <nav class="navbar px-2">
+    <div class="d-flex justify-content-between">
+        <h3 class="">Employee Crud</h3>
+    </div>
+    <div>
+        <button (click)="logOut()" class="btn btn-outline-success" type="submit">Log Out</button>
+    </div>
+</nav> -->
+
+<app-navbar></app-navbar>
+
+<div class="container mt-5">
+    <h2 class="text-center">Beautiful Bootstrap Table</h2>
+    <button class="btn btn-primary" routerLink="/create">Add Employee</button>
+    <table class="table table-bordered table-striped table-hover custom-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let Employee of allEmployees; let i = index">
+                <th>{{i + 1}}</th>
+                <td>{{Employee.name}}</td>
+                <td>{{Employee.designation}}</td>
+                <td>{{Employee.salary}}</td>
+                <td><a class="btn btn-primary" [routerLink]="['/edit', Employee.id]">Edit</a>
+                <a class="btn btn-danger ms-3" (click)="deleteitem(Employee.id)">Delete</a></td>
+                </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,19 @@
+<app-navbar></app-navbar>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Create Item</h2>
+    <form (ngSubmit)="createEmployee()">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input [(ngModel)]="formData.name" name="name" type="text" class="form-control" id="name" placeholder="Enter name">
+        </div>
+        <div class="mb-3">
+            <label for="designation" class="form-label">Employee Designation</label>
+            <input [(ngModel)]="formData.designation" name="designation" type="text" class="form-control" id="designation" placeholder="Enter designation">
+        </div>
+        <div class="mb-3">
+            <label for="salary" class="form-label">Salary</label>
+            <input [(ngModel)]="formData.salary" name="salary" type="number" class="form-control" id="salary" placeholder="Enter salary">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
